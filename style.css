@@ -1,17 +1,26 @@
 Css html'in olmazsa olmazlarındandır, sitemizi görsel olarak iyileştirmek için Css Kullanırız.
 
+Öncelikle Css dosyamısı html'e bağlıyoruz.
 
-h1 {
-  color: red;
-  font-size: 50px;
+<link rel="stylesheet" href="style.css"> yaparak css dosyamızı html'e bağlıyoruz.
+
+
+html dosyamızdaki etiketleri css dosyamıza yazarak üzerinde oynamalar yapabiliriz.
+
+
+<p>CSS Öğrenmeye başlıyoruz.<p>  html dosyamıza <p></p> Etiketi ile bir paragraf ekliyoruz.
+<h1>CSS ÖĞRENİYORUZ.<h1> 
+
+p{  >>> CSS'de <p> Etiketini özelleştirmek için css e ekliyoruz.
+  color: red;  
+  font-size;
 }
 
-
-
-
-
-
-
+h1{   <h1> Etiketini özelliştimek için css e ekliyoruz.
+  color: red; >>> color: red; yaparak başlığımızın rengini kırmızı yapıyoruz.
+  background-color: black; >>> background-color: black; yaparak başlığımızın arka planını siyah yapıyoruz.
+  font-size: 50px; >>> font-size: 50px; yaparak yazımızın boyutunu ayarlıyoruz. 
+}
 
 
 
